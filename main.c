@@ -9,7 +9,7 @@ int getInfectedAfterDays(int days) {
         return intInf;
     }
 
-    return trunc(rate * getInfectedAfterDays (days-1) + 1);
+    return trunc(rate * getInfectedAfterDays (days-1) + intInf);
 }
 
 int main() {
