@@ -20,7 +20,10 @@ public class into {
         System.out.println("Infected Students: " + infected_students);
         System.out.println("Percentage of student population infected: " + percentage + "%");
 
-        for (int i = 1; i <= 14; i++) {
+        infected_students = 0;
+    
+
+        for (int i = 1; i <= 14 && i <= D; i++) {
             infected_students += infection(i);
         }
         
