@@ -16,3 +16,10 @@ int main() {
 //
 
 }
+
+int populationInfected(int infectedNumber, int popNumber )
+{
+   int percentInfected =  ( popNumber / infectedNumber ) * 100;
+
+   return percentInfected;
+}
